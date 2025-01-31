@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-color: #090909;
+}
+
+.counter{
+    /* font-size: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter-e1{
+    font-size: 3rem;
+    color: aquamarine;
+}
+
+.btn{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #202020;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+}
